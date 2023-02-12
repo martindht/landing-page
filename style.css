@@ -73,7 +73,45 @@ button.b1button{
     width: 400px
 }
 
+.right
+{
+    width: 649px
+}
+
 .right,
 .left{
     margin: 20px;
 }
+
+/* Body 2 */
+
+.body2 {
+    height: 350px;
+    }
+
+.b2header {
+    font-weight: 900;
+    font-size: 35px;
+    margin: 50px;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.b2container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.b2img{
+    height: 180px;
+    width: 180px;
+    border-radius: 25px;
+    border: 2px solid forestgreen;
+    margin: 10px;
+}
+

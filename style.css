@@ -1,0 +1,79 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0
+    
+}
+
+button{
+    padding: 6px 20px;
+    border-radius: 8px;
+    font-weight: 900;
+}
+
+/* Header */
+.header {
+    height: 80px;
+    background: goldenrod;
+    color: black;
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;     
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px
+}
+
+.logo {
+    font-family: Besley, serif;
+    font-size: 32px; 
+    font-weight: 900;
+    font-style: italic;
+    flex-shrink: 0;
+}
+
+/* Body 1 */
+
+.body1 {
+    height: 550px;
+    background: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.b1header {
+font-weight: 900;
+font-size: 40px;
+margin:10px
+
+}
+
+button.b1button{
+    background: forestgreen;
+    color: white;
+    margin: 10px
+
+}
+
+.b1text {
+    margin: 10px
+}
+
+.left{
+    width: 400px
+}
+
+.right,
+.left{
+    margin: 20px;
+}

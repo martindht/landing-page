@@ -1,6 +1,7 @@
 body {
     font-family: Roboto, sans-serif;
-    margin: 0
+    margin: 0;
+    font-size: 20px;
     
 }
 
@@ -8,6 +9,11 @@ button{
     padding: 6px 20px;
     border-radius: 8px;
     font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: black
 }
 
 /* Header */
@@ -47,6 +53,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px
     
 
 
@@ -85,14 +92,15 @@ button.b1button{
 
 /* Body 2 */
 
-.body2 {
-    height: 350px;
-    }
+.body2{
+    background-color: beige;
+    padding: 30px;
+}
 
 .b2header {
     font-weight: 900;
     font-size: 35px;
-    margin: 50px;
+    margin-bottom: 50px;
     display:flex;
     justify-content: center;
     
@@ -105,13 +113,65 @@ button.b1button{
     gap: 52px;
     text-align: center;
     flex-wrap: wrap;
+    padding: 20px;
 }
 
 .b2img{
-    height: 180px;
-    width: 180px;
+    height: 210px;
+    width: 210px;
     border-radius: 25px;
-    border: 2px solid forestgreen;
+    border: 5px solid forestgreen;
     margin: 10px;
 }
 
+/* Body 3 */
+
+.body3{
+    height: 250px;
+    background-color: darkcyan;
+    display: flex;
+    align-items: center;
+    padding: 30px
+}
+
+.b3text{
+    font-size: 35px;
+    color: black;
+    font-family: Besley, serif;
+    font-style: italic;
+
+}
+
+/* Body 4 */
+
+.body4 {
+    height: 200px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b4container{
+    background-color: goldenrod;
+    display: flex;
+    padding: 30px;
+    border-radius: 25px;
+    border: 5px
+}
+
+.b4header{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+button.b4button {
+    background-color: forestgreen;
+    color: white;
+}
+
+.b4left{
+    margin-right: 30px;
+
+}
